@@ -3,11 +3,11 @@ public class Digit {
     static int digitIterative(int n, int i){
 
         int digit = n;
-        int restew;
+        int reste = 0;
         while (digit > 0) {
             i=i+1;
             digit = digit / 10;
-            int reste = digit % 10;
+            // int reste = digit % 10;
         }
         return reste;
     }
